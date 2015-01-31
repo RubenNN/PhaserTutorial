@@ -14,9 +14,9 @@
 
       this.load.image('space', 'assets/space.png');
       this.load.image('bullet', 'assets/bullet.png');
-      this.load.spritesheet('greenEnemy', 'assets/enemy.png', 32, 32) // We load a sprite sheet instead of an image. Including the width and height of the individual frames
+      this.load.spritesheet('greenEnemy', 'assets/enemy.png', 32, 32); // We load a sprite sheet instead of an image. Including the width and height of the individual frames
       this.load.spritesheet('explosion', 'assets/explosion.png', 32, 32);
-      this.load.spritesheet('main', 'assets/main.png', 36, 24) // We load a sprite sheet instead of an image. Including the width and height of the individual frames
+      this.load.spritesheet('main', 'assets/main.png', 36, 24); // We load a sprite sheet instead of an image. Including the width and height of the individual frames
 
       this.load.onLoadComplete.addOnce(this.onLoadComplete, this);
       this.load.setPreloadSprite(this.asset);
